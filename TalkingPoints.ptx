@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pretext>
+
+    <docinfo>
+        <!-- <macros>
+        \newcommand{\doubler}[1]{2#1}
+        </macros> -->
+    </docinfo>
+
+    <article xml:id="talkingpoints">
+        <title><pretext /> and (R)evolution in Open Textbooks</title>
+
+        <frontmatter>
+
+            <titlepage>
+                <author>
+                    <personname>Sean Fitzpatrick</personname>
+                    <institution>University of Lethbridge</institution>
+                </author>
+                <date><today /></date>
+            </titlepage>
+
+            <abstract>
+                <p><pretext /> (<url href="https://pretextbook.org/" />)
+                  is a free authoring platform for creating the next
+                  generation of open textbooks in a variety of
+                  formats from a single source. This article outlines some of the
+                  advantages of <pretext /> and reasons to consider adopting
+                  <term>Open Educational Resources</term> authored in <pretext />.</p>
+            </abstract>
+
+        </frontmatter>
+
+        <section xml:id="section-introduction">
+          <title>Introduction</title>
+            <p>
+              <term>Open Educational Resources</term> (<init>OER</init>)
+              have been growing in popularity among post-secondary faculty concerned
+              with affordability of textbooks and other materials they ask their
+              students to purchase. However, affordability alone is not a sufficient
+              reason for an instructor to choose a particular textbook: quality and
+              alignment with curriculum remain important considerations.
+            </p>
+            <p>
+              Many early <init>OER</init> examples were free, both in
+              terms of cost and licensing, but they could not compete with commercial
+              textbooks in terms of visual appeal, resources, and overall quality.
+            </p>
+            <p>
+              The <pretext /> project is an attempt to caputure the best of both worlds:
+              <ul>
+                <li>Free <mdash /> or minimal <mdash /> cost for students.</li>
+                <li>Open licensing allowing work to be freely distributed,
+                  shared, revised, remixed, and retained.</li>
+                <li>Visibly high quality layout and presentation.</li>
+                <li>Availability in a variety of formats and platforms.</li>
+                <li>Support for interactivity, supplemental resources, and more.</li>
+              </ul>
+            </p>
+            <p>
+              At its most basic <pretext /> is an <init>XML</init> vocabulary
+              for textbook authoring, together with tools for processing
+              <init>XML</init> source into a variety of formats, including:
+              <ul>
+                <li><init>HTML</init></li>
+                <li><init>PDF</init></li>
+                <li>Print</li>
+                <li>ePub</li>
+                <li>Jupyter notebooks</li>
+                <li>Braille</li>
+              </ul>
+              The <pretext /> system is completely free and open, and supported by a
+              welcoming community of <init>OER</init> enthusiasts, authors,
+              educators, and developers.
+            </p>
+            <p>
+              The remainder of this article describes the basic technical structure of <pretext />,
+              its advantages for authors, instructors, and students, and some of the exciting
+              features that members of the <pretext /> community are working to develop.
+            </p>
+        </section>
+
+        <section xml:id="section-technical">
+            <title>Technical Details</title>
+
+            <p>
+              What, exactly, is <pretext />? The core of <pretext /> is an
+              <init>XML</init> vocabulary that describes the structure of a
+              textbook: chapters, sections, examples, exercises, and so forth.
+              Knowledge of this vocabulary is sufficient to author a document in <pretext />.
+              To <em>publish</em> in <pretext />; that is, to produce a usable document from
+              an author's source, there are processing tools provided to convert the
+              <pretext /> source into a variety of formats.
+            </p>
+            <p>
+              At present, the processing tools require a reasonable level of technical ability
+              with command-line tools in a Unix-like environment, but tools are under
+              development to allow for easier processing, including support for Windows, a
+              <init>GUI</init> for configuration, and one-click processing.
+            </p>
+        </section>
+
+        <section xml:id="section-authors">
+            <title>Advantages for Authors</title>
+
+            <p>
+              The primary reason <ndash /> and original motivation <ndash />
+              is the ability to <q>write once, and read anywhere</q>; that is,
+              to produce a variety of formats from a single source.
+              Another advantage is the fully open nature of the platform. Getting
+              started does involve a technical learning curve, but it does not
+              require an account, or subscription, or licensing fee, unlike other
+              <q>open</q> platforms such as Pressbooks.
+            </p>
+
+            <p>
+              For authors who are familiar with authoring content in <m>\LaTeX</m>,
+              the step to <pretext /> is a relatively small one. Equations and other
+              mathematical content are produced using familiar <m>\LaTeX</m> syntax,
+              and the document structure will look familiar to anyone who has
+              written in <init>HTML</init>.
+            </p>
+
+            <p>
+              The <pretext /> system was created for authors, by authors who wanted the
+              ability to accomplish more than is possible with traditional authoring
+              systems such as <m>\LaTeX</m>. In addition to logical layout and content
+              structure, <pretext /> provides the ability to integrate multimedia elements
+              such as videos, applets, and interactive homework exercises.
+            </p>
+            <p>
+              The <pretext /> community also provides an invaluble resourse for authors.
+              Questions posted to the <pretext /> support Google group typically receive
+              same day responses from dedicated experts.
+            </p>
+        </section>
+
+        <section xml:id="section-instructors">
+            <title>Advantages for Instructors</title>
+            <p>
+              A big advantage of <pretext /> from an instructor's point of view is
+              <em>accessibility</em>. A <pretext /> book is accessible in numerous ways:
+              <dl>
+                <li>
+                  <title>Financial accessibility</title>
+                  <p>
+                   <init>HTML</init>,
+                <init>PDF</init> and ePub versions can be freely
+                distributed to students.
+                  </p>
+                </li>
+                <li>
+                  <title>Timely accessibility</title>
+                  <p>
+                  The textbook can be made available
+                  online to students at any time<mdash />including before the
+                  first class.</p>
+                </li>
+                <li>
+                  <title>Diverse accessibility</title>
+                  <p>
+                    The <init>HTML</init> output from <pretext /> is designed
+                  with access for differently-abled persons as a primary goal.
+                  Devices like screen readers are supported, even for mathematical content.
+                  </p>
+                </li>
+              </dl>
+            </p>
+            <p>
+              Another advantage <ndash /> or reassurance <ndash /> for instructors is the
+              availability of textbooks authored in <pretext /> that are high quality,
+              visually appealing, and course-tested.
+            </p>
+            <p>
+              Additionally, the ability to include interactive and multimedia elements
+              <em>directly in the textbook</em> means that instructors can provide students
+              with <em>structured interaction</em>: rather than having students navigate to
+              multiple locations to access videos, interactive elements, <etc />,
+              everything the students need can be organized, and integrated, in one place.
+            </p>
+        </section>
+
+        <section xml:id="section-students">
+            <title>Advantages for Students</title>
+            <p>
+              For students, <pretext /> provides ease of access: access to course materials
+              for free, at any time time, on any device. The <init>HTML</init> output
+              from <pretext />, unlike <init>PDF</init>, automatically reconfigures
+              itself for use on smaller screens such as smartphones.
+            </p>
+            <p>
+              A <pretext /> textbook provides a simplified interface for students. All the
+              content they need for their course is in one place, including text, videos, and
+              homework problems. Moreover, these can be integrated in a way that makes it easy
+              for students to find the content they need to complete their homework problems.
+            </p>
+            <p>
+              Furthermore, the content in a <pretext /> book goes beyond a traditional print
+              textbook, to include videos, interactive homework and graphics, and live
+              computational tools via <term>Sage</term> cells.
+            </p>
+            <p>
+              Finally, a <pretext /> book is made available to a student for free, forever.
+              A student in subsequent courses does not need to worry about being able to
+              access the textbook from their prerequisite courses when they need to review
+              a concept. The open licensing of a <pretext /> book promises that a student's
+              copy is theirs for as long as they want it.
+            </p>
+        </section>
+
+        <section xml:id="section-future">
+            <title>Future Progress</title>
+            <p>
+              As a relatively new project some may view <pretext /> as having a disadvantage
+              compared to mature platforms like <m>\LaTeX</m> in terms of ease of use.
+              However, there is also a major advantage: <pretext /> is undergoing rapid,
+              continual development, with new features being added on a regular basis.
+            </p>
+            <p>
+              Some of the exciting features under current development include:
+              <dl>
+                <li>
+                  <title>Analytics</title>
+                  <p>
+                    A group of instructrors interested in the Scholarship of Teaching
+                    and Learning have already participated in a pilot project where
+                    analytic tools were embedded into the online version of the textbook
+                    so that those instructors could track how and when their students
+                    were using the book.
+                  </p>
+                </li>
+                <li>
+                  <title>Annual editions</title>
+                  <p>
+                    Support for authors to track and highlight changes and improvements
+                    in their textbooks on a yearly release schedule.
+                    Adopters and instructors would be able to see at a glance what changes
+                    were made to the textbook from one year to the next.
+                  </p>
+                </li>
+                <li>
+                  <title>Student logins</title>
+                  <p>
+                    An infrastructure layer <ndash /> added onto the <init>HTML</init>
+                    version of the textbook <ndash /> would provide students with a persistent
+                    login token, allowing them to make notes, save answers to reading questions,
+                    and highlight important passages, all without leaving the textbook.
+                  </p>
+                  <p>
+                    Additionally, an instructor logging into the book has the ability
+                    to view (and in principle, grade) all of the student responses.
+                    Although this feature has not been publicly released, it has been
+                    successfully trialed in the past year.
+                  </p>
+                </li>
+                <li>
+                  <title>Instructor Editions</title>
+                  <p>
+                    In addition to an instructor login, as described above, it will soon
+                    be possible for an author to create an <em>instructor edition</em> of
+                    a textbook, which would include additional notes for the instructor
+                    on best practices for teaching content within the book.
+                  </p>
+                </li>
+                <li>
+                  <title>Ancillary Material</title>
+                  <p>
+                    Another feature being planned for instructor editions is the ability
+                    to associate ancillary material, such as exercises, videos, tests, <etc />.
+                    Some of these materials, such as videos, could be made available to students,
+                    if thet are not already part of the textbook.
+                  </p>
+                </li>
+                <li>
+                  <title>Installation and Processing Tools</title>
+                  <p>
+                    A working Windows installer was demonstrated at a recent <pretext />
+                    workshop in Portland, OR; at that same workshop, a team was working
+                    on developing support in the <term>TeXShop</term> application for Apple
+                    computers to allow for editing and one-click processing of <pretext />
+                    documents. The goal is to provide a user experience for <pretext />
+                    that is similar to what modern <m>\LaTeX</m> users are used to.
+                  </p>
+                </li>
+                <li>
+                  <title>
+                    Worksheets and Jupyter
+                  </title>
+                  <p>
+                    Support for worksheets is very close to being considered part of
+                    <pretext /> <em>present</em>, rather than <pretext /> future.
+                    Worksheets, which could be intended for self-study or as an
+                    in-class assignment (<eg /> for a tutorial/recitation/discussion),
+                    can be included as part of a textbook, or created as an external
+                    document, whether as a standalone worksheet, or as part of a
+                    workbook.
+                  </p>
+                  <p>
+                    There is already support for conversion to Jupyter in <pretext />,
+                    but this conversion preserves much of the styling in <pretext />
+                    and is not ideal for creation of matierals such as lab assignments.
+                    On the plus side, Sage Cell interative elements are automatically
+                    converted to Jupyter code cells already.
+                    A simplified Jupyter conversion is being planned to allow for
+                    easy authoring of <pretext /> worksheets for Jupyter.
+                  </p>
+                </li>
+                <li>
+                  <title>Slides</title>
+                  <p>
+                    For instructors who like to (or have to) lecture from slides,
+                    <pretext /> will soon offer the ability to produce lecture slides
+                    in two different ways. One will be to directly process parts of a
+                    <pretext /> book into slides. The other will be to directly author
+                    slides using <pretext />. In either case, the slides can be
+                    served in a web browser using <term>reveal.js</term> or in PDF
+                    via conversion to <m>\LaTeX</m> <term>Beamer</term>.
+                  </p>
+                </li>
+                <li>
+                  <title><init>LMS</init> integration</title>
+                  <p>
+                    A longer term goal for <pretext /> is to develop the ability to
+                    integrate a <pretext /> book with Learning Management Systems such
+                    as Canvas or Moodle. In principle, this would allow instructors to
+                    easily record scores for elements such as reading questions, and
+                    hopefully, for students to be able to complete online homework
+                    questions for credit, without having to leave the textbook.
+                  </p>
+                </li>
+              </dl>
+            </p>
+            <p>
+              Ultimately, what a project like <pretext /> demonstrates is that,
+              when considering options for course materials, an instructor can choose
+              an Open Education Resource for their students, not just because it is
+              cheaper than an equivalent commercial resource, but because it is
+              <em>better</em> than any equivalent commerical resource.
+            </p>
+            <p>
+              In the near future, a <pretext /> book will be able to serve as a
+              one-stop shop for everything related to a course, from the text,
+              to videos, to handouts, to graded homework.
+              A <pretext /> book is portable, accessible, interactive, and free.
+              The features it can include are increasing by the day.
+            </p>
+        </section>
+
+    </article>
+
+</pretext>
