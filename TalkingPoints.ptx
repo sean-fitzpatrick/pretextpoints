@@ -48,7 +48,7 @@
               textbooks in terms of visual appeal, resources, and overall quality.
             </p>
             <p>
-              The <pretext /> project is an attempt to caputure the best of both worlds:
+              The <pretext /> project is an attempt to capture the best of both worlds:
               <ul>
                 <li>Free <mdash /> or minimal <mdash /> cost for students.</li>
                 <li>Open licensing allowing work to be freely distributed,
@@ -130,7 +130,7 @@
               such as videos, applets, and interactive homework exercises.
             </p>
             <p>
-              The <pretext /> community also provides an invaluble resourse for authors.
+              The <pretext /> community also provides an invaluable resource for authors.
               Questions posted to the <pretext /> support Google group typically receive
               same day responses from dedicated experts.
             </p>
@@ -223,7 +223,7 @@
                 <li>
                   <title>Analytics</title>
                   <p>
-                    A group of instructrors interested in the Scholarship of Teaching
+                    A group of instructors interested in the Scholarship of Teaching
                     and Learning have already participated in a pilot project where
                     analytic tools were embedded into the online version of the textbook
                     so that those instructors could track how and when their students
@@ -251,7 +251,7 @@
                     Additionally, an instructor logging into the book has the ability
                     to view (and in principle, grade) all of the student responses.
                     Although this feature has not been publicly released, it has been
-                    successfully trialed in the past year.
+                    successfully trialled in the past year.
                   </p>
                 </li>
                 <li>
@@ -299,8 +299,8 @@
                   <p>
                     There is already support for conversion to Jupyter in <pretext />,
                     but this conversion preserves much of the styling in <pretext />
-                    and is not ideal for creation of matierals such as lab assignments.
-                    On the plus side, Sage Cell interative elements are automatically
+                    and is not ideal for creation of materials such as lab assignments.
+                    On the plus side, Sage Cell interactive elements are automatically
                     converted to Jupyter code cells already.
                     A simplified Jupyter conversion is being planned to allow for
                     easy authoring of <pretext /> worksheets for Jupyter.
@@ -336,7 +336,7 @@
               when considering options for course materials, an instructor can choose
               an Open Education Resource for their students, not just because it is
               cheaper than an equivalent commercial resource, but because it is
-              <em>better</em> than any equivalent commerical resource.
+              <em>better</em> than any equivalent commercial resource.
             </p>
             <p>
               In the near future, a <pretext /> book will be able to serve as a
