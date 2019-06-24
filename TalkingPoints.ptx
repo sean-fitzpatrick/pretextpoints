@@ -45,7 +45,7 @@
             <p>
               Many early <init>OER</init> examples were free, both in
               terms of cost and licensing, but they could not compete with commercial
-              textbooks in terms of visual appeal, resources, and overall quality.
+              textbooks on visual appeal, resources, and overall quality.
             </p>
             <p>
               The <pretext /> project is an attempt to capture the best of both worlds:
@@ -59,12 +59,17 @@
               </ul>
             </p>
             <p>
-              At its most basic <pretext /> is an <init>XML</init> vocabulary
-              for textbook authoring, together with tools for processing
-              <init>XML</init> source into a variety of formats, including:
+              At its most basic <pretext /> is a markup language
+              for textbook authoring that will look familiar to  anyone used to
+              <init>HTML</init> or <m>\LaTeX</m>.
+              The particular tags used to indicate different parts of the document
+              are different, but the underlying idea is the same.
+              The advantage of <pretext /> over other markup languages you may be
+              familiar with is that <pretext /> can be automatically converted into
+              a variety of outputs, including:
               <ul>
                 <li><init>HTML</init></li>
-                <li><init>PDF</init></li>
+                <li><init>PDF</init> (via <m>\LaTeX</m>)</li>
                 <li>Print</li>
                 <li>ePub</li>
                 <li>Jupyter notebooks</li>
@@ -212,7 +217,7 @@
         <section xml:id="section-future">
             <title>Future Progress</title>
             <p>
-              As a relatively new project some may view <pretext /> as having a disadvantage
+              As a relatively new project, some may view <pretext /> as having a disadvantage
               compared to mature platforms like <m>\LaTeX</m> in terms of ease of use.
               However, there is also a major advantage: <pretext /> is undergoing rapid,
               continual development, with new features being added on a regular basis.
@@ -277,7 +282,7 @@
                   <p>
                     A working Windows installer was demonstrated at a recent <pretext />
                     workshop in Portland, OR; at that same workshop, a team was working
-                    on developing support in the <term>TeXShop</term> application for Apple
+                    on developing support in the <term>TeXShop</term> application for Mac
                     computers to allow for editing and one-click processing of <pretext />
                     documents. The goal is to provide a user experience for <pretext />
                     that is similar to what modern <m>\LaTeX</m> users are used to.
